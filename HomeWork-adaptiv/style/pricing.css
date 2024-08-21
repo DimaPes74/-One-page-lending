@@ -1,0 +1,99 @@
+.Pricing {
+    padding: 70px 0;
+    background: #F5F5F5;
+}
+
+.pricing-head-wrapper {
+    margin: 0 0 62px 0;
+}
+.subtitle-pricing {
+    color: #212121;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 0 34px 0;
+}
+
+.subtitle-pricing::after {
+    content: "";
+    width: 64px;
+    display: block;
+    margin:34px auto 0 auto;
+    border-top: 2px solid #E72424;
+}
+
+.pricing-text-wrap {
+    max-width: 363px;
+    margin: auto;
+}
+.pricing-text {
+    color: #86878B;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+.pricing-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    width: 340px;
+    margin: 0 15px;
+}
+
+.pricing-card li {
+    margin-bottom: 3px;
+    
+}
+
+.pricing-names-card {
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.pricing-cost-card {
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.priceng-ffl-card {
+    background: #333;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.pricing-card-space {
+    background: #FFF;
+    color: #86878B;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}

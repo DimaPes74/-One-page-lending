@@ -1,0 +1,68 @@
+.footer {
+    background-color: #000;
+    padding: 30px 0 15px 0;
+}
+
+.footer-navigation-box {
+    margin-bottom: 18px;
+}
+.footer-navigation-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 320px;
+    margin: auto;
+}
+.footer-navigation-item-link a i {
+    font-size: 23px;
+}
+
+#facebook:hover {
+    color: rgb(66 103 178);
+    transform: scale(1.6) rotate(0);
+}
+
+#twitter:hover {
+    transform: scale(1.6) rotate(0);
+    color: rgb(29, 161, 242);
+}
+
+#google_plus:hover {
+    transform: scale(1.6) rotate(0);
+    color: rgb(221, 75, 57);
+}
+
+#pinterest:hover {
+    transform: scale(1.5) rotate(0);
+    color: rgb(200 35 44);
+}
+
+#instagram:hover {
+    transform: scale(1.6) rotate(0);
+    background-image: linear-gradient(to bottom right, #405DE6, #F77737);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#stumbleupon:hover {
+    transform: scale(1.5) rotate(0);
+    color: rgb(235, 71, 29);
+}
+
+#rss:hover {
+    transform: scale(1.5) rotate(0);
+    color: rgb(242, 101, 34);
+}
+
+.foter-text-wrap {
+    margin: auto;
+    max-width: 130px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

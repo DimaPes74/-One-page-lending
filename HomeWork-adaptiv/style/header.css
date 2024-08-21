@@ -1,0 +1,54 @@
+.header {
+    background: rgb(0, 0, 0);
+    padding: 20px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.header-wrap-title {
+    margin: 0 15px;
+}
+
+.axit {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.axit span {
+    color: rgb(236, 121, 121);
+}
+
+.header-wrap-nav {
+    margin: 0 15px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 489px;
+}
+
+.header-list a {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.header-list a:hover {
+    color: #E72424;
+}

@@ -1,0 +1,732 @@
+@import url(./cdn.css);
+@import url(./header.css);
+@import url(./modern.css);
+@import url(./social.css);
+@import url(./tabs.css);
+@import url(./awesome.css);
+@import url(./pricing.css);
+@import url(./customers.css);
+@import url(./axure.css);
+@import url(./contact.css);
+@import url(./footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+}
+
+html {
+    font-family: "Open+Sans", "Raleway", sans-serif;
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+    position: relative;
+    z-index: 5;
+}
+
+@media (max-width: 1200px) {
+    .container {
+      max-width: 970px;
+    }
+
+    .header-list a {
+      font-size: 14px;
+    }
+
+    .social-navigation-list {
+        width: 480px;
+    }
+
+    .social-list-item-link a .fa-brands {
+        font-size: 36px;
+    }
+
+    .social-list-item-link a .fa-solid {
+        font-size: 36px;
+    }
+
+    .tabs-wrapper {
+        display: block;
+    }
+
+    .tabs-header {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .tabs-header button {
+        padding: 40px 30px;
+        margin: 0 15px;
+        font-size: 14px;
+    }
+
+    .tabs-content-img {
+        max-width: 260px;
+        margin: 0 15px;
+    }
+
+    .awesome-card {
+        max-width: 250px;
+    }
+
+    .awesome-card-icon {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .awesome-fonts {
+        font-size: 26px;
+    }
+
+    .pricing-card {
+        width: 280px;
+    }
+
+    .customers-card {
+        max-width: 250px;
+    }
+
+  }
+
+  @media (max-width: 992px) {
+    .container {
+      max-width: 750px;
+    }
+
+    .header-menu {
+        width: 350px;
+    }
+
+    .header-list a {
+        font-size: 12px;
+    }
+
+    .modern {
+        padding: 80px 0;
+    }
+
+    .modern-axure-wrap {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    .modern-axit-box {
+        width: 108px;
+        margin: 0 auto 30px auto;
+    }
+    
+    .modern-axit {
+        font-size: 45px;
+        line-height: 45px;
+        
+    }
+
+    .modern-axit span {
+        font-size: 45px;
+        line-height: 45px;
+        
+    }
+
+    .moder-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .moder-title::after {
+        margin:34px auto;
+    }
+
+    .modern-text-box {
+        max-width: 500px;
+        margin: 0 auto 25px auto;
+    }
+
+    .modern-text {
+        text-align: center;
+    }
+
+    .modern-link {
+        max-width: 100px;
+        margin:0 auto 25px auto;
+    }
+
+    .modern-link a {
+        line-height: 36px;
+        font-size: 14px;
+        padding: 0 16px;
+    }
+
+    .form-modern-wrap {
+        margin: auto;
+    }
+
+    .modern-form-content {
+        padding: 15px 50px 55px 50px;
+    }
+
+    .socia_desc-box {
+        max-width: 280px;
+    }
+
+    .social-subtitle {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .social-text {
+        font-size: 12px;
+    }
+
+    .social-navigation-list {
+        width: 380px;
+    }
+
+    .tabs {
+        padding: 80px 0;
+    }
+
+    .tabs-header {
+        margin-bottom: 35px;
+    }
+
+    .tabs-header button {
+        padding: 15px 35px;
+        margin-bottom: 0;
+    }
+
+    .tabs-content-subtitle {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .tabs-content-text-wrap {
+        margin-bottom: 50px;
+    }
+
+    .tabs-content-text-wrap p {
+        font-size: 12px;
+    }
+
+    .tabs-content-link {
+        max-width: 100px;
+    }
+
+    .tabs-content-link a {
+        font-size: 13px;
+        line-height: 35px;
+        padding: 0 19px;
+    }
+
+    .tabs-content-img {
+        max-width: 200px;
+    }
+
+    .Awesome {
+        padding: 70px 0;
+    }
+
+    .awesome-head-wrapper {
+        margin-bottom: 45px;
+    }
+
+    .subtitle-awesome {
+        font-size: 28px;
+    }
+
+    .awesome-text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .awesome-card {
+        max-width: 200px;
+    }
+
+    .awesome-card-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .awesome-fonts {
+        font-size: 25px;
+    }
+
+    .awesome-name_card {
+        font-size: 18px;
+        margin: 25px 0 0 0;
+    }
+
+    .awesome-card-text {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .pricing-head-wrapper {
+     margin-bottom: 50px;   
+    }
+
+    .subtitle-pricing {
+        font-size: 28px;
+    }
+
+    .pricing-text {
+        font-size: 12px; 
+        text-align: center;
+    }
+
+    .pricing-card {
+        width: 200px;
+    }
+
+    .pricing-names-card {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+
+    .pricing-cost-card {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 70px;
+    }
+
+    .subtitle-customers{
+        font-size: 28px;
+    }
+
+    .customers-text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .customers-card {
+        max-width: 200px;
+    }
+
+    .customers-card-text {
+        font-size: 12px;
+    }
+
+    .customers-avatar-wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .customers-avatar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .customers-name {
+        font-size: 18px;
+    }
+
+    .customers-profession {
+        font-size: 12px;
+    }
+
+    .subtitle-axure {
+        font-size: 28px;
+    }
+
+    .axure-text-wrap {
+        margin-bottom: 40px;
+    }
+
+    .axure-text {
+        font-size: 14px;
+    }
+
+    .axure-border-link {
+        max-width: 100px;
+    }
+
+    .axure-border-link a {
+        font-size: 13px;
+        line-height: 35px;
+        padding: 0 19px;
+    }
+
+    .contact {
+        padding: 45px 0;
+    }
+
+    .contact-subtitle-wrapper {
+        margin: 0 auto 60px auto;
+    }
+
+    .contact-subtitle {
+        font-size: 28px;
+    }
+
+    .contact-text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .contact-form-content {
+        margin-bottom: 55px;
+    }
+
+    .contact-input-box {
+        flex-basis: 45%;
+    }
+
+    .cotact-item {
+        margin-bottom: 30px;
+    }
+
+    .contact-label {
+        font-size: 12px;
+    }
+
+    .contact-input {
+        font-size: 18px;
+    }
+
+    .contact-texterea-box {
+        flex-basis: 45%;
+    }
+
+    .contact-textarea {
+        height: 175px;
+    }
+
+    .contact-button {
+        font-size: 13px;
+        line-height: 34px;
+        padding: 0 21px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+    }
+
+    .header {
+        padding: 15px 0;
+    }
+
+    .header-wrapper {
+        display: block;
+    }
+
+    .header-wrap-title {
+        width: 65px;
+        margin: 0 auto 15px auto;
+    }
+
+    .header-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-list a {
+        font-size: 15px;
+    }
+    
+    .social-navigation-list {
+        width: 350px;
+        margin: 0 15px;
+    }
+
+    .social-list-item-link a .fa-brands {
+        font-size: 28px;
+    }
+
+    .social-list-item-link a .fa-solid {
+        font-size: 28px;
+    }
+
+    .tabs-content-img {
+        display: none;
+    }
+
+    .tabs-content-discription {
+        width: 90%;
+        margin: auto;
+    }
+
+    .tabs-content-subtitle {
+        text-align: center;
+    }
+
+    .tabs-content-text-wrap p {
+        text-align: center;
+    }
+
+    .tabs-content-link {
+        margin: auto;
+    }
+    
+    .Awesome {
+        padding: 50px 0;
+    }
+
+    .awesome-cards-wrapper {
+        display: block;
+    }
+
+    .awesome-card {
+        max-width: 60%;
+        margin: 0 auto 25px auto;
+    }
+
+    .awesome-card:last-child {
+        margin-bottom: 0;
+    }
+
+    .pricing-cards-wrapper {
+        display: block;
+    }
+
+    .pricing-card {
+        width: 70%;
+        margin: 0 auto 35px auto;
+    }
+
+    .customers-cards-wrapper {
+        display: block;
+    }
+
+    .customers-card {
+        max-width: 60%;
+        margin: 0 auto 40px auto;
+    }
+
+    .customers-card:last-child {
+        margin-bottom: 0;
+    }
+    .customers-avatar-wrap {
+        margin: 0;
+    }
+
+    .contact-form-content {
+        display: block;
+    }
+
+    .contact-input-box {
+        width: 70%;
+        margin: 0 auto 30px auto;
+    }
+
+    .contact-texterea-box {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        padding: 20px 0 10px 0;
+    }
+    
+    .footer-navigation-box {
+        margin-bottom: 12px;
+    }
+    
+}
+
+  @media (max-width: 566px) {
+    .axit {
+        font-size: 22px;
+    }
+
+    .header-menu {
+        margin: auto;
+        max-width: 80%;
+    }
+
+    .header-list {
+        margin: 0 5px;
+    }
+
+    .header-list a {
+        font-size: 13px;
+    }
+    
+    .modern {
+        padding: 50px 0;
+    }
+
+    .modern-axit-box {
+        margin-bottom: 20px;
+    }
+
+    
+    .modern-axit {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .modern-axit span {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .moder-title {
+        font-size: 20px;
+    }
+
+    .moder-title::after {
+        margin:26px auto 26px auto;
+    }
+
+    .modern-form-subtitle {
+        margin-bottom: 30px;
+    }
+
+    .madern-label {
+        font-size: 12px;
+    }
+
+    .social-media-wrapper {
+        display: block;
+        margin: auto;
+    }
+
+    .socia_desc-box {
+        display: inline-block;
+        max-width: 100%;
+        margin: 0 auto 10px auto;
+    }
+
+    .social-subtitle {
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 5px;
+        font-weight: 400;
+    }
+
+    .social-text {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .social-navigation-list {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .social-list-item-link a .fa-brands {
+        font-size: 24px;
+    }
+
+    .social-list-item-link a .fa-solid {
+        font-size: 24px;
+    }
+
+    .tabs {
+        padding: 50px 0;
+    }
+
+    .tabs-header button {
+        padding: 15px 15px;
+        margin: 0 5px;
+    }
+
+    .tabs-content-text-wrap {
+        margin-bottom: 35px;
+    }
+
+    .tabs-content-text-wrap p {
+        font-size: 11px;
+    }
+
+    .subtitle-awesome {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .subtitle-awesome::after {
+        margin: 26px auto 0 auto;
+    }
+
+    .awesome-card {
+        max-width: 75%;
+    }
+
+    .Pricing {
+        padding: 35px 0;
+    }
+
+    .subtitle-pricing {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .subtitle-pricing::after {
+        margin:26px auto 0 auto;
+    }
+
+    .customers {
+        padding: 40px 0;
+    }
+
+    .subtitle-customers {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .subtitle-customers::after {
+        margin:26px auto 0 auto;
+    }
+
+    .customers-card {
+        max-width: 75%;
+    }
+
+    .axure {
+        padding: 30px;
+    }
+
+    .subtitle-axure {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .subtitle-axure::after {
+        margin: 26px auto 0 auto;
+    }
+
+    .contact {
+        padding: 30px 0;
+    }
+
+    .contact-subtitle {
+        font-size: 20px;
+    }
+
+    .contact-subtitle::after {
+        margin: 26px auto 26px auto;
+    }
+
+    .contact-textarea {
+        height: 120px;
+    }
+
+    .footer-navigation-list {
+        max-width: 250px;
+    }
+
+    .footer-navigation-item-link a i {
+        font-size: 18px;
+    }
+  }
+
+  @media (max-width: 320px) {
+
+    
+  }

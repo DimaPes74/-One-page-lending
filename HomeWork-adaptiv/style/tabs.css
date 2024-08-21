@@ -1,0 +1,115 @@
+.tabs {
+    padding: 125px 0;
+}
+
+.tabs-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.tabs-header {
+    width: 40%;
+}
+
+.tabs-header button {
+    padding: 45px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    margin-bottom: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    }
+
+.tabs-header button:last-child {
+    margin-bottom: 0;
+}
+
+.tabs-header button:hover {
+    background-color: #EC7979;
+    transform: scale(1.1);
+}
+
+
+.tabs-content-item:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tabs-content-item:nth-child(2) {
+    display: none;
+}
+
+.tabs-content-item:nth-child(3) {
+    display: none;
+}
+
+.tabs-content-discription {
+    width: 60%;
+}
+
+.tabs-content-subtitle {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+
+.tabs-content-text-wrap {
+    margin-bottom: 89px;
+}
+
+.tabs-content-text-wrap p {
+    color: #86878B;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.tabs-content-text-wrap p:first-child {
+    margin-bottom: 20px;
+}
+
+.tabs-content-link {
+    max-width: 135px;
+    background-color: #EC7979;
+}
+
+.tabs-content-link:hover {
+    transform: scale(1.1);
+}
+
+.tabs-content-link a {
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    text-transform: capitalize;
+    padding: 0 32px 0 32px;
+}
+
+.tabs-content-img {
+    max-width: 320px;
+    margin: 0 15px;
+}
+
+.tabs-content-img img {
+    width: 100%;
+    height: 100%;
+}

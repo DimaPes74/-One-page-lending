@@ -1,0 +1,121 @@
+.customers {
+    padding: 80px 0 120px 0;
+}
+
+.customers-head-wrapper {
+    margin: 0 0 67px 0;
+}
+
+.subtitle-customers {
+    color: #212121;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 0 34px 0;
+}
+
+.subtitle-customers::after {
+    content: "";
+    width: 64px;
+    display: block;
+    margin:34px auto 0 auto;
+    border-top: 2px solid #E72424;
+}
+
+.customers-text-wrap {
+    max-width: 363px;
+    margin: auto;
+}
+
+.customers-text {
+    color: #86878B;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customers-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.customers-card {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.customers-card-text-wrap {
+    padding: 9px 22px 6px 22px;
+    border-radius: 7px;
+    background: #E2E2E2;
+    margin-bottom: 28px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.customers-card-text-wrap::after{
+    content: '';
+    top: 100%;
+    left: 35px;
+    position: absolute; 
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent; 
+    border-top: 15px solid #E2E2E2;
+}
+
+.customers-card-text {
+    color: #86878B;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+.customers-avatar-wrap {
+    width: 212px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.customers-avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.customers-avatar-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.customers-name {
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.customers-profession {
+    color: #86878B;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
